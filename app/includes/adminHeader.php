@@ -1,6 +1,6 @@
 <header>
     <a class="logo" href="<?php echo BASE_URL . '/index.php'; ?>">
-        <h1 class="logo-text"><span>Sahil</span>Patel</h1>
+        <h1 class="logo-text"><span>G</span>Blog</h1>
     </a>
     <i class="fa fa-bars menu-toggle"></i>
     <ul class="nav">

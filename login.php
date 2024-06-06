@@ -29,12 +29,13 @@ guestsOnly();
 
   <div class="auth-content">
 
-    <form action="login.php" method="post">
+    <form action="login.php" method="post" >
       <h2 class="form-title">Login</h2>
 
       <?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
 
       <div>
+        <br><br>
         <label>Username</label>
         <input type="text" name="username" value="<?php echo $username; ?>" class="text-input">
       </div>
@@ -42,9 +43,11 @@ guestsOnly();
         <label>Password</label>
         <input type="password" name="password" value="<?php echo $password; ?>" class="text-input">
       </div>
+      <br>
       <div>
-        <button type="submit" name="login-btn" class="btn btn-big">Login</button>
+       <center><button type="submit" name="login-btn" class="btn btn-big">Login</button></center>
       </div>
+      <br>
       <p>Or <a href="<?php echo BASE_URL . '/register.php' ?>">Sign Up</a></p>
     </form>
 

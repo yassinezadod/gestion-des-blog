@@ -31,7 +31,7 @@ guestsOnly();
   <div class="auth-content">
 
     <form action="register.php" method="post">
-      <h2 class="form-title">Register</h2>
+      <h2 class="form-title">Register</h2><br><br>
 
       <?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
 
@@ -51,9 +51,11 @@ guestsOnly();
         <label>Password Confirmation</label>
         <input type="password" name="passwordConf"  value="<?php echo $passwordConf; ?>" class="text-input">
       </div>
+      <br>
       <div>
-        <button type="submit" name="register-btn" class="btn btn-big">Register</button>
+       <center><button type="submit" name="register-btn" class="btn btn-big">Register</button></center> 
       </div>
+      <br>
       <p>Or <a href="<?php echo BASE_URL . '/login.php' ?>">Sign In</a></p>
     </form>
 
